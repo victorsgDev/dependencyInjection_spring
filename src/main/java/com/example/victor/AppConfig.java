@@ -1,10 +1,13 @@
 package com.example.victor;
 
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
+
+@ComponentScan(basePackages = "com.example.victor")
 public class AppConfig {
 
-    @Bean(name = "basicSpellChecker")
+    /* @Bean(name = "basicSpellChecker")
     public BasicSpellChecker createBasicSpellChecker(){
         return new BasicSpellChecker();
     }
@@ -19,6 +22,6 @@ public class AppConfig {
         EmailClient emailClient = new EmailClient();
         emailClient.setSpellChecker(createAdvancedSpellChecker());
         return emailClient;
-    }
+    }   */
 
 }

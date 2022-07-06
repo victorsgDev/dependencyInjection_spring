@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9ed1b53-7f8c-49b1-aea5-b4826a446390" name="Changes" comment="DI mediante Java config">
+    <list default="true" id="b9ed1b53-7f8c-49b1-aea5-b4826a446390" name="Changes" comment="Setter injection">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/victor/AdvancedSpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/victor/AdvancedSpellChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/victor/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/victor/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/victor/BasicSpellChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/victor/BasicSpellChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/victor/EmailClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/victor/EmailClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
@@ -79,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657103213985</updated>
       <workItem from="1657103215301" duration="4514000" />
-      <workItem from="1657110894606" duration="523000" />
+      <workItem from="1657110894606" duration="1951000" />
     </task>
     <task id="LOCAL-00001" summary="Dependency Injection mediante xml">
       <created>1657105238279</created>
@@ -102,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657107516515</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Setter injection">
+      <created>1657111473893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657111473893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +132,7 @@
     <MESSAGE value="Dependency Injection mediante xml" />
     <MESSAGE value="add Readme.md" />
     <MESSAGE value="DI mediante Java config" />
-    <option name="LAST_COMMIT_MESSAGE" value="DI mediante Java config" />
+    <MESSAGE value="Setter injection" />
+    <option name="LAST_COMMIT_MESSAGE" value="Setter injection" />
   </component>
 </project>
