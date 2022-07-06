@@ -5,7 +5,8 @@
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <bean id="emailClient" class="com.example.victor.EmailClient">
-        <constructor-arg ref="advancedSpellChecker"></constructor-arg>
+    <!--    <constructor-arg ref="advancedSpellChecker"/> -->
+        <property name="spellChecker" ref="basicSpellChecker"/>     <!-- SETTER INJECTION -->
     </bean>
 
     <bean id="basicSpellChecker" class="com.example.victor.BasicSpellChecker">
